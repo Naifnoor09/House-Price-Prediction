@@ -1,40 +1,82 @@
-# 📘 Machine Learning Projects
+# 🏠 House Price Prediction
 
-## 👋 About
-This repository is part of my **machine learning learning journey**.  
-I am covering each ML topic step by step, and for every concept I learn, I try to apply it through a **small but meaningful project**.  
-The idea is to not just learn the theory, but also build practical intuition by experimenting, analyzing results, and documenting insights.
+A machine learning project applying **Linear Regression with Regularization** to predict house prices using the Boston Housing dataset. Built as part of a structured ML learning journey.
 
 ---
 
-## 🔑 Goals
-- Strengthen understanding of **core ML algorithms**  
-- Build a **portfolio of projects** as I progress  
-- Practice writing **clean, explainable notebooks** with insights  
-- Push projects regularly to GitHub to track growth  
+## 📓 Notebook
+
+`HousePricePredictionProject_1.1.ipynb`
+
+Covers the full ML workflow:
+
+```
+Data Exploration → Preprocessing → Modeling → Evaluation → Insights
+```
 
 ---
 
-## 🛠 Structure
-Each folder/notebook in this repo represents:
-1. **Topic covered** (e.g., Linear Regression, Regularization, Classification)  
-2. **A project/dataset** chosen to apply the topic  
-3. **Steps**: Data exploration → Preprocessing → Modeling → Evaluation → Insights  
+## 🧠 What's Covered
+
+**Algorithms:**
+- Linear Regression
+- Ridge Regression (L2 Regularization)
+- Lasso Regression (L1 Regularization)
+
+**Concepts Practiced:**
+- Exploratory Data Analysis (EDA)
+- Feature correlation analysis
+- Train/test split
+- Model evaluation (MSE, R² Score)
+- Effect of regularization on model performance
+- Overfitting vs underfitting
 
 ---
 
-## 📊 Current Progress
-- ✅ Completed **Linear Regression + Regularization (Ridge & Lasso)** with Boston Housing dataset  
-- 🚧 Next: Move on to **Classification algorithms** (Logistic Regression, KNN, etc.)  
+## 📊 Dataset
+
+**Boston Housing Dataset**
+- 506 samples
+- 13 input features (crime rate, number of rooms, tax rate, etc.)
+- Target: Median house price (`MEDV`)
 
 ---
 
-## 🚀 Vision
-By the end of this journey, this repository will act as a **comprehensive collection of ML projects**, showing a clear progression from basics to advanced topics.  
+## 📈 Results
+
+| Model | R² Score |
+|---|---|
+| Linear Regression | Baseline |
+| Ridge Regression | Improved generalization |
+| Lasso Regression | Feature selection via sparsity |
 
 ---
 
-## ⚡ Tech Stack
-- Python (NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn)  
-- Jupyter Notebook  
-- Git & GitHub for version control  
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Python | Core language |
+| NumPy & Pandas | Data manipulation |
+| Scikit-learn | ML models |
+| Matplotlib & Seaborn | Visualization |
+| Jupyter Notebook | Development environment |
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Install dependencies
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+
+# Launch notebook
+jupyter notebook HousePricePredictionProject_1.1.ipynb
+```
+
+---
+
+## 👤 Author
+
+**Md Naif** — BSc Data Science Student  
+Building towards a career in Agentic AI Engineering 🚀
