@@ -1,6 +1,8 @@
 # 🏠 House Price Prediction
 
-A machine learning project applying **Linear Regression with Regularization** to predict house prices using the Boston Housing dataset. Built as part of a structured ML learning journey.
+## ❗ Problem Statement
+
+Real estate pricing is complex and often opaque — buyers and sellers struggle to assess whether a property is fairly priced without expert knowledge. This project builds a regression model that predicts house prices based on key property features, making price estimation transparent and data-driven.
 
 ---
 
@@ -8,8 +10,7 @@ A machine learning project applying **Linear Regression with Regularization** to
 
 `HousePricePredictionProject_1.1.ipynb`
 
-Covers the full ML workflow:
-
+Full ML workflow:
 ```
 Data Exploration → Preprocessing → Modeling → Evaluation → Insights
 ```
@@ -19,7 +20,7 @@ Data Exploration → Preprocessing → Modeling → Evaluation → Insights
 ## 🧠 What's Covered
 
 **Algorithms:**
-- Linear Regression
+- Linear Regression (baseline)
 - Ridge Regression (L2 Regularization)
 - Lasso Regression (L1 Regularization)
 
@@ -28,27 +29,16 @@ Data Exploration → Preprocessing → Modeling → Evaluation → Insights
 - Feature correlation analysis
 - Train/test split
 - Model evaluation (MSE, R² Score)
-- Effect of regularization on model performance
-- Overfitting vs underfitting
+- Effect of regularization on overfitting
 
 ---
 
 ## 📊 Dataset
 
 **Boston Housing Dataset**
-- 506 samples
-- 13 input features (crime rate, number of rooms, tax rate, etc.)
+- 506 samples, 13 input features
+- Features include: crime rate, number of rooms, tax rate, distance to employment centers
 - Target: Median house price (`MEDV`)
-
----
-
-## 📈 Results
-
-| Model | R² Score |
-|---|---|
-| Linear Regression | Baseline |
-| Ridge Regression | Improved generalization |
-| Lasso Regression | Feature selection via sparsity |
 
 ---
 
@@ -58,7 +48,7 @@ Data Exploration → Preprocessing → Modeling → Evaluation → Insights
 |---|---|
 | Python | Core language |
 | NumPy & Pandas | Data manipulation |
-| Scikit-learn | ML models |
+| Scikit-learn | ML models + evaluation |
 | Matplotlib & Seaborn | Visualization |
 | Jupyter Notebook | Development environment |
 
